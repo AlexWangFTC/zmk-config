@@ -46,7 +46,7 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5) RC(4,5) RC(4,6) RC(3,6) RC(3,7) 
 &kata0510_lily58_layout {
     transform = <&default_transform>;
 };
-
+/*
 &pro_micro_i2c {
     status = "okay";
 
@@ -65,7 +65,7 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5) RC(4,5) RC(4,6) RC(3,6) RC(3,7) 
         prechargep = <0x22>;
     };
 };
-
+*/
 /*
 // 128x64 OLED
 &pro_micro_i2c {
@@ -86,6 +86,7 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5) RC(4,5) RC(4,6) RC(3,6) RC(3,7) 
         prechargep = <0x22>;
     };
 };
+*/
 // 128x32 OLED
 &pro_micro_i2c {
     status = "okay";
@@ -108,7 +109,7 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5) RC(4,5) RC(4,6) RC(3,6) RC(3,7) 
 };
 
 // 128x64 OLED model sh1106
-
+/*
 &pro_micro_i2c {
     status = "okay";
     oled: sh1106@3c {
