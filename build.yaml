@@ -53,8 +53,7 @@
 # cmake-args: -DKEYMAP_FILE=../../config/other-corne.keymap -DCONFIG_ZMK_KEYBOARD_NAME=\"other-corne\" -DEXTRA_CONF_FILE=../../config/other-corne.conf
 ---
 include:
-  - board: nice_nano_v2 # Replace with the Pro Micro-compatible board you're using
-    shield: tester_pro_micro
+
   ### CORNE START ###
     ### nice_view START ###
     # nice_nano_v2 + nice_view_gem
@@ -271,10 +270,12 @@ include:
   - board: nice_nano_v2
     shield: settings_reset
     artifact-name: nice_settings_reset
-  - board: seeeduino_xiao_ble
-    shield: settings_reset
-    artifact-name: xiao_settings_reset
-  - board: puchi_ble_v1
-    shield: settings_reset
-    artifact-name: puchi_settings_reset
+  # - board: seeeduino_xiao_ble
+  #   shield: settings_reset
+  #   artifact-name: xiao_settings_reset
+  # - board: puchi_ble_v1
+  #   shield: settings_reset
+  #   artifact-name: puchi_settings_reset
+  - board: nice_nano_v2 # Replace with the Pro Micro-compatible board you're using
+  shield: tester_pro_micro
   ### SETTINGS_RESET END ###
